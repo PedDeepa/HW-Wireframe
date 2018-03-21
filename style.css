@@ -1,0 +1,77 @@
+/* when setting box-sizing: border-box on an element,the padding and border of that element
+ no longer increase its width*/
+ /* * can be used to set an attribute value to all the elements in a body*/
+ /* set the margin property to auto to horizontally center the element within its container.*/
+ * {
+	margin: 10px auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    font-size: 18px;
+    text-align: center;
+    
+}
+.clearfix {
+    overflow: auto;
+}
+header{
+    background: #ebebeb;
+   width: 960px;
+   padding:30px;
+	}
+nav{
+    background: #ebebeb;
+    width: 960px;
+    padding:30px;
+	}
+.wrapper{
+    width: 960px;
+  /*  overflow: auto;*/
+    }
+/*
+The overflow property specifies what should happen if content overflows an element's box*/
+
+section{
+	background-color: #ebebeb;
+	width: 495px;
+	height: 300px;
+    margin-right: 20px;
+    margin-bottom: 10 px;
+	float: left;
+	padding-top: 30px;
+}
+
+article{
+	background-color: #777;
+	margin: 20px 10px 10px 10px;
+	padding: 20px;
+    color: #fff;
+   }
+
+
+.content{
+	background-color: #ebebeb;
+	padding: 10px;
+    color: #777;
+    overflow: auto
+}
+
+aside{
+	background-color: #ebebeb;
+	width: 445px;
+	float: right;
+    height: 300px;
+    padding-top: 25px;
+    margin-bottom: 10px;
+    
+	}
+
+footer{
+	background-color: #ebebeb;
+	width: 960px;
+	padding: 30px;}
